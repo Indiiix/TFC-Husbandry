@@ -61,7 +61,6 @@ dependencies {
 
     // TFC
     implementation(fg.deobf("tfc:TerraFirmaCraft-Forge-1.20.1-0.0.0:indev"))
-    //implementation(fg.deobf(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar")))))
 
     // JEI
     compileOnly(fg.deobf("mezz.jei:jei-$minecraftVersion-forge-api:$jeiVersion"))
